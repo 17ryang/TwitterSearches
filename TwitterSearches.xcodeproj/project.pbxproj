@@ -14,6 +14,7 @@
 		2F08C00F1A9F7676004A652B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F08C00E1A9F7676004A652B /* Images.xcassets */; };
 		2F08C0121A9F7676004A652B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F08C0101A9F7676004A652B /* LaunchScreen.xib */; };
 		2F08C01E1A9F7676004A652B /* TwitterSearchesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F08C01D1A9F7676004A652B /* TwitterSearchesTests.swift */; };
+		2F08C0281A9F7B53004A652B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F08C0271A9F7B53004A652B /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		2F08C0171A9F7676004A652B /* TwitterSearchesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterSearchesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F08C01C1A9F7676004A652B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F08C01D1A9F7676004A652B /* TwitterSearchesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterSearchesTests.swift; sourceTree = "<group>"; };
+		2F08C0271A9F7B53004A652B /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				2F08C00E1A9F7676004A652B /* Images.xcassets */,
 				2F08C0101A9F7676004A652B /* LaunchScreen.xib */,
 				2F08C0031A9F7676004A652B /* Supporting Files */,
+				2F08C0271A9F7B53004A652B /* Model.swift */,
 			);
 			path = TwitterSearches;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				2F08C00A1A9F7676004A652B /* DetailViewController.swift in Sources */,
 				2F08C0081A9F7676004A652B /* MasterViewController.swift in Sources */,
 				2F08C0061A9F7676004A652B /* AppDelegate.swift in Sources */,
+				2F08C0281A9F7B53004A652B /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
